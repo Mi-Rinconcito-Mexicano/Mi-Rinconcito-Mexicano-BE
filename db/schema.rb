@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(version: 2021_04_21_012812) do
     t.string "description"
     t.float "price", null: false
     t.bigint "menu_category_id", null: false
-    t.text "extra", default: [], array: true
-    t.text "tags", default: [], array: true
+    t.text "extra"
+    t.text "tags"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["menu_category_id"], name: "index_menu_items_on_menu_category_id"
