@@ -6,6 +6,6 @@ RSpec.describe MenuCategory, type: :model do
   end
 
   describe 'Validations' do
-    it {should validate_presence_of :name}
+    it {should validate_presence_of :category}
   end
 end

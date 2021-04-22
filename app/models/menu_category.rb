@@ -1,4 +1,4 @@
 class MenuCategory < ApplicationRecord
     has_many :menu_items
-    validates_presence_of :name
+    validates_presence_of :category
 end
