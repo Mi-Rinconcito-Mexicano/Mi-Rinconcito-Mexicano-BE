@@ -13,6 +13,12 @@ MenuItem.create(name: 'Combination 1',
                                menu_category_id: combo_cat_id,
                                extra: [{info: 'Half or Whole beef', price: 2}, {info: 'Any Change', price: 1}])
 
+MenuItem.create(name:'Combination 2',
+                description: 'test', 
+                price:12.95, 
+                menu_category_id:combo_cat_id, 
+                extra:[{info:'Half or whole beef', price:2},{info:'Any change',price:1}])
+
 taco_cat_id = MenuCategory.create(category: 'Tacos', description: 'Order of three corn tortillas with onions and cilantro').id
 MenuItem.create(name: 'Pollo / Chicken', price: 5.95, menu_category_id: taco_cat_id)
 
