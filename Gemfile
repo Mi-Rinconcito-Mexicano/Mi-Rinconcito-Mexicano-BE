@@ -43,6 +43,7 @@ group :test do
 end
 
 gem 'pg'
+gem 'jsonapi-serializer'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
