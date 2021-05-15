@@ -28,6 +28,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
+  gem 'rack-cors'
 end
 
 group :development do
